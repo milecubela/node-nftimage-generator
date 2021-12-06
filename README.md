@@ -1,0 +1,1 @@
+Program uzima unaprijed dizajnirane i pripremljene slike složene po layerima. Stvara više razlicitih canvasa od elemenata iz svakog layera. Primjer su NFT kolekcije
