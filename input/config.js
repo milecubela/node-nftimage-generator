@@ -47,8 +47,9 @@ const getElements = path => {
   };
 
 
-// Definiranje svih layera koji ce biti sastavljeni u canvas, dizajn bi trebao biti nacrtan ali ja nisam umjetnik pa sam skinuo ikonice s interneta
-// Pozicija x-y bi kod svih trebala biti 0,0, ali radi preglednosti 
+// Definiranje svih layera koji ce biti sastavljeni u canvas, dizajn bi trebao biti nacrtan u 1000x1000 formatu 
+// Nemam dizajn, zbog toga sam skinuo random ikonice i stavio ih da pocinju sa razlicitih mjesta, u njihovim originalnim velicinama
+// Zbog preglednosti funkcionalnosti
 const layers = [{
     id: 1,
     name: "background",
@@ -63,7 +64,7 @@ const layers = [{
     location: `${dir}/layer1/`,
     elements: getElements(`${dir}/layer1/`),
     position: { x: 100, y: 100},
-    size: {width: width, height: height}
+    size: {width: 100, height: 100}
 },
 {
     id: 3,
@@ -71,7 +72,7 @@ const layers = [{
     location: `${dir}/layer2/`,
     elements: getElements(`${dir}/layer2/`),
     position: { x: 200, y: 200},
-    size: {width: width, height: height}
+    size: {width: 100, height: 100}
 },
 {
     id: 4,
@@ -79,7 +80,7 @@ const layers = [{
     location: `${dir}/layer3/`,
     elements: getElements(`${dir}/layer3/`),
     position: { x: 300, y: 300},
-    size: {width: width, height: height}
+    size: {width: 100, height: 100}
 },
 {
     id: 5,
@@ -87,7 +88,31 @@ const layers = [{
     location: `${dir}/layer4/`,
     elements: getElements(`${dir}/layer4/`),
     position: { x: 400, y: 400},
-    size: {width: width, height: height}
+    size: {width: 100, height: 100}
+},
+{
+    id: 6,
+    name: "layer5",
+    location: `${dir}/layer5/`,
+    elements: getElements(`${dir}/layer5/`),
+    position: { x: 500, y: 500},
+    size: {width: 100, height: 100}
+},
+{
+    id: 7,
+    name: "layer6",
+    location: `${dir}/layer6/`,
+    elements: getElements(`${dir}/layer6/`),
+    position: { x: 600, y: 600},
+    size: {width: 100, height: 100}
+},
+{
+    id: 8,
+    name: "layer7",
+    location: `${dir}/layer7/`,
+    elements: getElements(`${dir}/layer7/`),
+    position: { x: 700, y: 700},
+    size: {width: 100, height: 100}
 },
 ]
 
